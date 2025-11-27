@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum App - Habilidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .accordion-item {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .accordion-body {
+            text-align: left;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column vh-100">
+    <header class="text-center py-3 w-100">
+        <h5><i class="bi bi-tools me-2"></i>Habilidades</h5>
+    </header>
+    <hr class="m-0">
+    <main class="flex-grow-1 d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="accordion" id="skillsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingInformatica">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInformatica" aria-expanded="false" aria-controls="collapseInformatica">
+                                    Informática
+                                </button>
+                            </h2>
+                            <div id="collapseInformatica" class="accordion-collapse collapse" aria-labelledby="headingInformatica" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    > Sistemas microinformáticos <br>
+                                    > Redes <br>
+                                    > Desarrollo apps web <br>
+                                    > Programación (HTML, CSS, JS, etc.)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <br>
+                    <div class="accordion" id="skillsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingCocina">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCocina" aria-expanded="false" aria-controls="collapseCocina">
+                                    Cocina
+                                </button>
+                            </h2>
+                            <div id="collapseCocina" class="accordion-collapse collapse" aria-labelledby="headingCocina" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    > Platos tradicionales <br>
+                                    > Utensilios cocina <br>
+                                    > Ingredientes y técnicas culinarias
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <br>
+                    <div class="accordion" id="skillsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingPesca">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePesca" aria-expanded="false" aria-controls="collapsePesca">
+                                    Pesca
+                                </button>
+                            </h2>
+                            <div id="collapsePesca" class="accordion-collapse collapse" aria-labelledby="headingPesca" data-bs-parent="#skillsAccordion">
+                                <div class="accordion-body">
+                                    > Técnicas pesca <br>
+                                    > Especies marinas <br>
+                                    > Equipo pesca <br>
+                                    > Normativas pesca
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr class="m-0">
+    <footer class="text-end px-4 py-3 w-100">
+        <a href="index.html" class="btn btn-primary">
+            <i class="bi bi-arrow-left"></i>
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
